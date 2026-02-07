@@ -17,8 +17,8 @@ public class Java8OrElseGetMethod {
 		System.out.println("Employee Name :: "+employee.get().getName());
 		
 		//orElseThrow throws exception in case element is not Found
-		Optional<Employee> employee1 = Optional.ofNullable(employeeList.stream().filter(e -> e.getAge() > 80).findFirst().orElseThrow(() -> new IllegalArgumentException("Employee with age > 19 not found")));
-		System.out.println("Employee Name :: "+employee1.get().getName());
+		/*Optional<Employee> employee1 = Optional.ofNullable(employeeList.stream().filter(e -> e.getAge() > 80).findFirst().orElseThrow(() -> new IllegalArgumentException("Employee with age > 19 not found")));
+		System.out.println("Employee Name :: "+employee1.get().getName());*/
 	}
 
 }
