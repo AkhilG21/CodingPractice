@@ -3,11 +3,13 @@ name: Java CI Build
 on:
   push:
     branches:
-      - main        # run on merge / push to main (master)
-      - feature/**  # run on feature branches
+      - main
+      - master
+      - feature/**
   pull_request:
     branches:
-      - main        # run on PRs targeting main
+      - main
+      - master
 
 jobs:
   build:
