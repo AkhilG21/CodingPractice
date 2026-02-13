@@ -1,6 +1,6 @@
 package com.akhil.dsa.slidingwindow.practice;
 
-public class SlidingWindowBruteForceApproach {
+public class MaxSumSubArrayBruteForceApproach {
 
 	public static void main(String[] args) {
 		
