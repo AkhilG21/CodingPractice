@@ -1,4 +1,4 @@
-package com.akhil.java8.arrays.practice;
+package com.akhil.java8.practice.arrays;
 
 public class ArrayDataSet {
 	

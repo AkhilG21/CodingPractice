@@ -1,4 +1,4 @@
-package com.akhil.java8.arrays.practice;
+package com.akhil.java8.practice.arrays;
 
 import java.util.Arrays;
 import java.util.List;
