@@ -18,6 +18,9 @@ public class MinSwapsSubarray {
 		}
 		System.out.println("Elements less than b :: "+k);
 
+		if(k == 0 || k == 1) {
+			System.out.println("Return 0");
+		}
 		
 		for(int j = 0; j < k; j++) {
 			if(arr[j] > b) {
