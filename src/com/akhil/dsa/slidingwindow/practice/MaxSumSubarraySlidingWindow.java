@@ -1,5 +1,6 @@
 package com.akhil.dsa.slidingwindow.practice;
 
+//Find max Sum of Sub Array of size K using sliding window technique
 public class MaxSumSubarraySlidingWindow {
 
 	public static void main(String[] args) {
